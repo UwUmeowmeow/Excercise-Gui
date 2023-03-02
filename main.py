@@ -1,16 +1,18 @@
-# This is a sample Python script.
+import easygui
+import random
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+# easygui.enterbox("Hi! What is your name")
+# easygui.integerbox("How old are you?", "Age")
+# easygui.buttonbox("Do you want to continue", "Game Continues", choices=["Yes", "No", "Maybe"])
+# easygui.msgbox("Kia ora! Welcome to Easygui")
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+# for i in range(100):
+#    number = random.randint(0, 2)
+#    print(number)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+# words = ["Bat", "Cat", "Hat", "Mat"]
+# my_word = random.choice(words)
+# print(my_word)
+
