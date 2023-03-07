@@ -38,4 +38,4 @@ while True:
             easygui.msgbox(f"You have {percentage* 100}% win rate")
         else:
             easygui.msgbox("Your trash")
-print("GG")
+print("GG ")
