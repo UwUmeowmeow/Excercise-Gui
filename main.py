@@ -16,4 +16,4 @@ import random
 # print(my_word)
 
 
-crtl + / = #
+# crtl + / = #
