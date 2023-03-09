@@ -124,6 +124,10 @@ else:
 """
 
 
+
+
+
+
 if sys.hexversion >= 0x020600F0:
     runningPython26 = True
 else:
@@ -155,6 +159,7 @@ def write(*args):
     args = [str(arg) for arg in args]
     args = " ".join(args)
     sys.stdout.write(args)
+
 
 def writeln(*args):
     write(*args)
